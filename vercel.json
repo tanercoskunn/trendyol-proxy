@@ -13,3 +13,11 @@
     }
   ]
 }
+{
+  "functions": {
+    "api/index.js": { "runtime": "edge" }   // <-- Edge runtime
+  },
+  "routes": [
+    { "src": "/(.*)", "dest": "/api/index.js" }
+  ]
+}
