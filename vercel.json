@@ -15,7 +15,7 @@
 }
 {
   "functions": {
-    "api/index.js": { "runtime": "edge" }   // <-- Edge runtime
+    "api/index.js": { "runtime": "edge" }
   },
   "routes": [
     { "src": "/(.*)", "dest": "/api/index.js" }
